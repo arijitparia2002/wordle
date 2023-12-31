@@ -1,0 +1,18 @@
+{
+  "name": "wordle-api",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "gen": "cd scripts && python extract.py"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^3.11.6",
+    "ioredis": "^5.3.2"
+  }
+}
